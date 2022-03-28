@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(68, 68, 68) 16.62%, dimgrey 85.61%);
+}
+
+.bg {
+    background-image: url(/images/jur01.jpg);
+    background-color:rgba(0,0,0,0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-blend-mode: darken;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    opacity: 100%;
+}
+
+
+.cabecalho-imagem {
+    height: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 248, 205, 0.959);
+}
+
