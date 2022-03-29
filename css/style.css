@@ -54,3 +54,30 @@ body {
     color: rgba(255, 248, 205, 0.959);
 }
 
+.section-conteudo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding-right: 3em;
+    margin: 7em 10em 0 0;
+}
+
+.section-conteudo-titulo {
+    font-size: 2.5em;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    color: rgba(255, 248, 205, 0.959);
+    font-weight: bold;
+}
+
+.section-conteudo-paragrafo{
+    font-size: 1.5em;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    color: rgba(255, 248, 205, 0.959);
+    font-style: italic;
+}
