@@ -81,3 +81,9 @@ body {
     color: rgba(255, 248, 205, 0.959);
     font-style: italic;
 }
+
+.section-conteudo-botao {
+    width: 29em;
+    height: 4em;
+    background-color: burlywood;
+}
