@@ -48,42 +48,97 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
+    color: rgba(255, 248, 205, 0.959);
     font-weight: 400;
     font-size: 18px;
-    color: rgba(255, 248, 205, 0.959);
 }
 
 .section-conteudo {
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
     padding-right: 3em;
-    margin: 7em 10em 0 0;
+    margin: 7em 10em 10.7em 0;
 }
 
 .section-conteudo-titulo {
     font-size: 2.5em;
     font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
     color: rgba(255, 248, 205, 0.959);
+    font-weight: 400;
     font-weight: bold;
 }
 
 .section-conteudo-paragrafo{
     font-size: 1.5em;
     font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
     font-weight: 400;
     color: rgba(255, 248, 205, 0.959);
     font-style: italic;
 }
 
 .section-conteudo-botao {
-    width: 29em;
-    height: 4em;
+    width: 17em;
+    height: 3.2em;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.4em;
     background-color: burlywood;
+    color: #59371C;
+    border-radius: 2em 0em 2em 0em;
+}
+
+.section-conteudo-botao:hover {
+    background-color: #59371C;
+    color: burlywood;
+}
+
+
+.section-conteudo-secundario {
+    background-color: #EBDACC;
+    padding: 2em;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14em;
+
+}
+
+
+.conteudo-secundario div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EBDACC;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    text-align: center;
+	width: 30%;
+    height: 18em;
+    background-color: #8F542E;
+    color: #EBDACC;
+    font-size: 1.2em;
+}
+
+.conteudo-secundario div:hover {
+    background-color: #59371C;
+    transform: scale(1.1);
+}
+
+.conteudo-secundario-icone {
+    width: 80%;
+}
+
+
+
+/* RODAPE */
+.rodape {
+    font-size: 3em;
+    background-color: #59371C;
 }
