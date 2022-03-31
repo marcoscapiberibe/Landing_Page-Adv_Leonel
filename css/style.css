@@ -18,7 +18,7 @@ body {
 }
 
 .bg {
-    background-image: url(./images/jur01.jpg);
+    background-image: url(../images/jur01.jpg);
     background-color:rgba(0,0,0,0.6);
     background-repeat: no-repeat;
     background-size: cover;
